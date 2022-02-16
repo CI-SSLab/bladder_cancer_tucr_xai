@@ -2,7 +2,7 @@
 
 This is the repository for publication: 
 
-**Ultraconserved long non-coding RNA panel for bladder cancer prognosis: a machine learning application to medicine**
+**A new biomarker panel of ultraconserved long non-coding RNA for bladder cancer prognosis by a machine learning based methodology**
 
 
 Citation: [available soon]
