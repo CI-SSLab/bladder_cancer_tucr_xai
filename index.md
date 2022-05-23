@@ -10,7 +10,12 @@ Citation: [available soon]
 # Request dataset
 
 <form action="https://getform.io/f/c8335930-bfff-4d68-afe5-79981147306a" method="POST">
-    <input type="text" name="name" placeholder="Name" required>
+
+    <div class="form-group">
+        <label for="name">Name</label>
+        <input type="text" name="name" id="name" placeholder="Name" required>
+    </div>
+
     <input type="text" name="surname" placeholder="Last Name" required>
     <input type="email" name="email" placeholder="Email" required>
     <!-- checkbox handle --> 
