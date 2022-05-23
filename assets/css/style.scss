@@ -7,7 +7,7 @@ label {
     display: inline-block;
     margin-bottom: .5rem;
   }
-  
+
 .form-group {
     margin-bottom: 1rem;
   }
@@ -305,4 +305,20 @@ label {
     color: #fff;
     background-color: rgba(40, 167, 69, 0.8);
     border-radius: .2rem;
+  }
+
+  .btn-primary {
+    color: #fff;
+    background-color: #159957;
+    border-color: #159957;
+  }
+  
+  .btn-primary:hover {
+    color: #fff;
+    background-color: #109c56;
+    border-color: #109c56;
+  }
+  
+  .btn-primary:focus, .btn-primary.focus {
+    box-shadow: 0 0 0 0.2rem rgba(0, 255, 98, 0.5);
   }
