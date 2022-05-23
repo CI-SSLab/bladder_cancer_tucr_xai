@@ -9,6 +9,8 @@ Citation: [available soon]
 
 # Request dataset
 
+<script src="https://js.hcaptcha.com/1/api.js" async defer></script>
+
 <form action="https://getform.io/f/c8335930-bfff-4d68-afe5-79981147306a" method="POST">
 
     <div class="form-group">
@@ -30,6 +32,8 @@ Citation: [available soon]
         <!-- checkbox handle --> 
         <input type="checkbox" class="form-check-input" name="toc" id="toc" value="no" required> <label class="form-check-label" for="toc">Accept Terms and Conditions</label>
     </div>
+
+    <div class="h-captcha" data-sitekey="7aa05d52-ce94-4065-a09a-751ca87e718d"></div>
 
     <button type="submit" class="btn btn-primary">Send</button>
 </form>
