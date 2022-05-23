@@ -13,12 +13,23 @@ Citation: [available soon]
 
     <div class="form-group">
         <label for="name">Name</label>
-        <input type="text" name="name" id="name" placeholder="Name" required>
+        <input type="text" class="form-control" name="name" id="name" placeholder="Name" required>
     </div>
 
-    <input type="text" name="surname" placeholder="Last Name" required>
-    <input type="email" name="email" placeholder="Email" required>
-    <!-- checkbox handle --> 
-    <input type="checkbox" name="subscribe" value="no" required> <label>Accept Terms and Conditions</label>
-    <button type="submit">Send</button>
+    <div class="form-group">
+        <label for="surname">Surname</label>
+        <input type="text" class="form-control" name="surname" id="surname" placeholder="Last Name" required>
+    </div>
+
+    <div class="form-group">
+        <label for="email">Email address</label>    
+        <input type="email" class="form-control" name="email" id="email" placeholder="Email" required>
+    </div>
+
+    <div class="form-check">
+        <!-- checkbox handle --> 
+        <input type="checkbox" class="form-check-input" name="toc" id="toc" value="no" required> <label class="form-check-label" for="toc">Accept Terms and Conditions</label>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Send</button>
 </form>
