@@ -12,12 +12,12 @@ Citation: [available soon]
 <form action="https://getform.io/f/c8335930-bfff-4d68-afe5-79981147306a" method="POST">
 
     <div class="form-group">
-        <label for="name">Name</label>
+        <label for="name">First name</label>
         <input type="text" class="form-control" name="name" id="name" placeholder="Name" required>
     </div>
 
     <div class="form-group">
-        <label for="surname">Surname</label>
+        <label for="surname">Last name</label>
         <input type="text" class="form-control" name="surname" id="surname" placeholder="Last Name" required>
     </div>
 
@@ -25,6 +25,12 @@ Citation: [available soon]
         <label for="email">Email address</label>    
         <input type="email" class="form-control" name="email" id="email" placeholder="Email" required>
     </div>
+
+    <div class="form-group">
+        <label for="institute">Institute</label>    
+        <input type="text" class="form-control" name="institute" id="institute" placeholder="Institute" required>
+    </div>
+
 
     <div class="form-check">
         <!-- checkbox handle --> 
