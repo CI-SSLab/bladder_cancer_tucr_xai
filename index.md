@@ -34,7 +34,7 @@ Citation: [available soon]
 
     <div class="form-check">
         <!-- checkbox handle --> 
-        <input type="checkbox" class="form-check-input" name="toc" id="toc" value="yes" required> <label class="form-check-label" for="toc">Accept <a href="toc.html" target="_blank">Terms and Conditions</a></label>
+        <input type="checkbox" class="form-check-input" name="toc" id="toc" value="yes" required> <label class="form-check-label" for="toc">Accept <a href="toc.html" target="popup" onclick="window.open('toc.html','popup','width=600,height=600'); return false;">Terms and Conditions</a></label>
     </div>
 
     <div class="h-captcha" data-sitekey="7aa05d52-ce94-4065-a09a-751ca87e718d"></div>
